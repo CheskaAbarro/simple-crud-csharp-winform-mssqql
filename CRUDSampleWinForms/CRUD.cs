@@ -12,7 +12,7 @@ namespace CRUDSampleWinForms
         }
 
         //varibles
-        string connectionString = "Data Source=ServerName;Initial Catalog=databaseName;Integrated Security=True;TrustServerCertificate=True";
+        string connectionString = "Data Source=LAPTOP-Zephyrus\\SQLEXPRESS;Initial Catalog=CRUDWinForms;Integrated Security=True;TrustServerCertificate=True";
 
         //LOAD ALL RECORDS -------------------------------
         private void CRUD_Load(object sender, EventArgs e)
