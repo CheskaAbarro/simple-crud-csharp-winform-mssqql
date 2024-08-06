@@ -5,10 +5,10 @@
 ** Step 1: Set up your database in MS SQL Server **
 Database details: 
 ```
-**Database:** CRUDWinForms
-**Table:** CRUD_Basic
-**Table contents:** ID(int, Identity Specification:Yes), Name(varchar 50), Age(int)
-**Note:** You can decide if you want to create this database created a query or not.
+Database: CRUDWinForms
+Table: CRUD_Basic
+Table contents: ID(int, Identity Specification:Yes), Name(varchar 50), Age(int)
+Note: You can decide if you want to create this database created a query or not.
 ```
 
 ** Step 2: Establish connection **
