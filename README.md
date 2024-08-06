@@ -22,5 +22,7 @@ Update the connectionString variable with your server name and database name.
 
 ![image](https://github.com/user-attachments/assets/5b0f24b8-f6be-4440-8949-559e81e31010)
 
+**Tip: Read all the comments and try to debug line by line in order to study it better.**
+
 ### If you encounter an error, please leave a comment of your error and I will try to answer as soon as possible. 
 ### Happy learning!
