@@ -12,7 +12,7 @@ namespace CRUDSampleWinForms
         }
 
         //varibles
-        string connectionString = "Data Source=LAPTOP-Zephyrus\\SQLEXPRESS;Initial Catalog=CRUDWinForms;Integrated Security=True;TrustServerCertificate=True";
+        string connectionString = "Data Source=LAPTOP-SERVERNAME;Initial Catalog=CRUDWinForms;Integrated Security=True;TrustServerCertificate=True";
 
         //LOAD ALL RECORDS -------------------------------
         private void CRUD_Load(object sender, EventArgs e)
@@ -207,14 +207,20 @@ namespace CRUDSampleWinForms
         {
             try
             {
+                //SQL
                 string sqlQuery = "SELECT * FROM CRUD_Basic";
-                SqlConnection conn = new SqlConnection(connectionString);
 
+                //connection and execution
+                SqlConnection conn = new SqlConnection(connectionString);
                 SqlCommand cmd = new SqlCommand(sqlQuery, conn);
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 DataTable dataTable = new DataTable();
+
+                //display data to datagrid
                 adapter.Fill(dataTable);
                 dataRecordsView.DataSource = dataTable;
+
+                //fit records to the datagrid
                 dataRecordsView.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                 dataRecordsView.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                 dataRecordsView.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
