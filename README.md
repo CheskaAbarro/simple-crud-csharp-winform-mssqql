@@ -13,8 +13,8 @@ Note: You can decide if you want to create this database with a query or not.
 
 **Step 2: Establish connection**
 
-Install a NuGet package: ***Microsoft.Data.SqlClient***
-You can find your server name when connecting your MS SQL Server. 
+Install a NuGet package: ***Microsoft.Data.SqlClient***.
+Then, establish connection between visual studio and MS SQL. You can find your server name when connecting your MS SQL Server. 
 Update the connectionString variable with your server name and database name. 
 ```
 string connectionString = "Data Source=SERVERNAME;Initial Catalog=CRUDWinForms;Integrated Security=True;TrustServerCertificate=True";
