@@ -1,4 +1,4 @@
-# CRUDSampleWinForms
+# Simple and Basic CRUD Example on WinForms
 **This is just a simple CRUD functions using WinForms and MS SQL Server. Created with .NET 8 and MSSQL v20. This includes a simple error try and catch and does not include dependency injection and does not use MVVM format. This is just for beginner's practice guide!**
 
 ### How to run this CRUD system on your device? 
